@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>survey</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <section>
+        <h1 div id="h1"><u>Winners Quick Renting</u></h1>
+        <p id="p">Welcome to Winners quick renting site. We are here to provide you with the quickest way of renting a house or getting a tenant. Instead of walking around to locate a house of your choice or sticking papers on walls to get a tenant,how about just
+            filling a form and getting what you need?</p>
+        <div class="row home-para">
+            <div class="col-6">
+                <form>
+                    <h1 id="h1">Land lord/lady:</h1>
+                    <fieldset>
+                        <legend id="p">Personal details</legend>
+                        <div id="p">First Name:<input type="text" name="First Name"><br><br>Last Name:<input type="text" name="Last Name"><br><br>E-mail:<input type="text" name="E-mail"><br><br>Phone no.<input type="text"><br><br>Location:<input type="text" name="Location"><br><br>                            Gender:
+                            <br><br><input type="radio" value="Female" name="Gender">Female<br>
+                            <input type="radio" value="Male" name="Gender">Male<br><input type="radio" value="Other" name="Gender">Other<br>
+                            <br>Date of birth:<input type="date"><br><br></div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="col-6">
+                <form>
+                    <h1 id="h1">Tenant:</h1>
+                    <fieldset>
+                        <legend id="p">Personal details</legend>
+                        <div id="p"> First Name:<input type="text" name="First Name"><br><br>Last Name:<input type="text" name="Last Name"><br><br>E-mail:<input type="text" name="E-mail"><br><br>Phone no.<input type="text"><br><br>Gender:<br><br><input type="radio"
+                                value="Female" name="Gender">Female<br><br>
+                            <input type="radio" value="Male" name="Gender">Male<br><br><input type="radio" value="Other" name="Gender">Other<br><br>Date of birth:<input type="date"><br><br></div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="col-12">
+                <button type="button" onclick="myFunction()">submit</button>
+                <script src="survey.js"></script>
+                </script>
+                <button type="button" onclick="document.getElementById('demo').innerHTML=Date()">Okay</button>
+                <p id="demo"></p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
